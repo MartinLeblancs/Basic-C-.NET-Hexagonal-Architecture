@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{552CDF7B-7B63-4102-A832-DD271F3AF736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonWeather.Core", "src\MonWeather.Core\MonWeather.Core.csproj", "{CFFA502F-82A2-494C-B83C-A83E46580231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonWeather.Infra", "src\MonWeather.Infra\MonWeather.Infra.csproj", "{66251755-DB44-4FB5-800E-688421BC810B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonWeather.Models", "src\MonWeather.Models\MonWeather.Models.csproj", "{912A13DE-066E-4B77-B794-BAA2E1391033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonWeather.Test", "src\MonWeather.Test\MonWeather.Test.csproj", "{A414372C-BC85-42B4-BC4D-509020F16B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonWeather.Web", "src\MonWeather.Web\MonWeather.Web.csproj", "{E6296AA0-B8B2-46F3-9288-B9381AC650C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFA502F-82A2-494C-B83C-A83E46580231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFA502F-82A2-494C-B83C-A83E46580231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFA502F-82A2-494C-B83C-A83E46580231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFA502F-82A2-494C-B83C-A83E46580231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66251755-DB44-4FB5-800E-688421BC810B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66251755-DB44-4FB5-800E-688421BC810B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66251755-DB44-4FB5-800E-688421BC810B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66251755-DB44-4FB5-800E-688421BC810B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912A13DE-066E-4B77-B794-BAA2E1391033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912A13DE-066E-4B77-B794-BAA2E1391033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912A13DE-066E-4B77-B794-BAA2E1391033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912A13DE-066E-4B77-B794-BAA2E1391033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A414372C-BC85-42B4-BC4D-509020F16B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A414372C-BC85-42B4-BC4D-509020F16B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A414372C-BC85-42B4-BC4D-509020F16B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A414372C-BC85-42B4-BC4D-509020F16B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6296AA0-B8B2-46F3-9288-B9381AC650C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6296AA0-B8B2-46F3-9288-B9381AC650C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6296AA0-B8B2-46F3-9288-B9381AC650C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6296AA0-B8B2-46F3-9288-B9381AC650C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFFA502F-82A2-494C-B83C-A83E46580231} = {552CDF7B-7B63-4102-A832-DD271F3AF736}
+		{66251755-DB44-4FB5-800E-688421BC810B} = {552CDF7B-7B63-4102-A832-DD271F3AF736}
+		{912A13DE-066E-4B77-B794-BAA2E1391033} = {552CDF7B-7B63-4102-A832-DD271F3AF736}
+		{A414372C-BC85-42B4-BC4D-509020F16B7F} = {552CDF7B-7B63-4102-A832-DD271F3AF736}
+		{E6296AA0-B8B2-46F3-9288-B9381AC650C9} = {552CDF7B-7B63-4102-A832-DD271F3AF736}
+	EndGlobalSection
+EndGlobal
