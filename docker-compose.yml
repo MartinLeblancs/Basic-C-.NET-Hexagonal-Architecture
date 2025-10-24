@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  monweather-api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: monweather
+    ports:
+      - "5432:5432"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db

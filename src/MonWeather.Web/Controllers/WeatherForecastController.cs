@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MonWeather.Models;
 
 namespace MonWeather.Web.Controllers;
 
